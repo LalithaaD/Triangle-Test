@@ -22,10 +22,9 @@ namespace TriangleTests
             string result = Triangle.AnalyzeTriangle(side, side, side);
             // Assert
             Assert.AreEqual("Equilateral triangle", result);
-            }
-        
-    }
-// Valid Isosceles Triangles
+            }    
+    
+        // Valid Isosceles Triangles
         // Three (3) tests for a valid isosceles triangle
         [Test]
         public void ValidIsoscelesTriangle_Input5and5and7_OutputValidIsosceles1()
@@ -126,5 +125,84 @@ namespace TriangleTests
             Assert.AreEqual("Scalene triangle", result);
             }
 
-}
+        
+        // Zero Length for One or More Sides
+        // Three (3) tests for verifying a zero length for one or more sides
+        [Test]
+        public void ZeroLengthForSide_Input0and5and7_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 0;
+            int side2 = 5;
+            int side3 = 7;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("Invalid Triangle - a zero has been detected", result);
+            }
+        [Test]
+        public void ZeroLengthForSide_Input4and0and6_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 4;
+            int side2 = 0;
+            int side3 = 6;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("Invalid Triangle - a zero has been detected", result);
+            }
+        [Test]
+        public void ZeroLengthForSide_Input3and8and0_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 3;
+            int side2 = 8;
+            int side3 = 0;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("Invalid Triangle - a zero has been detected", result);
+            }
+        // Invalid Response (Other than Zero Length)
+        // Three (3) tests for verifying an invalid response (other than a zero length)
+        [Test]
+        public void InvalidResponse_Input3and5and9_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 3;
+            int side2 = 5;
+            int side3 = 9;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("INVALID!!", result);
+            }
+        [Test]
+        public void InvalidResponse_Input7and10and3_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 7;
+            int side2 = 10;
+            int side3 = 3;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("INVALID!!", result);
+            }
+        [Test]
+        public void InvalidResponse_Input15and5and3_OutputInvalid()
+            {
+            // Arrange
+            int side1 = 15;
+            int side2 = 5;
+            int side3 = 3;
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+            // Assert
+            Assert.AreEqual("INVALID!!", result);
+            }
+        
+    }
 
+}
