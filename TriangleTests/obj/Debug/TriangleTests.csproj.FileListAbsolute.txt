@@ -1,0 +1,15 @@
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\nunit.engine.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\nunit.engine.api.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\TriangleTests.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\TriangleTests.pdb
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\nunit.framework.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\TriangleSolver.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\TriangleSolver.pdb
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\bin\Debug\nunit.framework.xml
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\obj\Debug\TriangleTests.csproj.AssemblyReference.cache
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\obj\Debug\TriangleTests.csproj.CoreCompileInputs.cache
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\obj\Debug\TriangleTests.csproj.CopyComplete
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\obj\Debug\TriangleTests.dll
+C:\Users\Amarnath\Desktop\lalitha\TriangleSolver-Assignment2\TriangleSolver\TriangleTests\obj\Debug\TriangleTests.pdb
